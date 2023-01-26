@@ -76,12 +76,6 @@ export default function Home() {
             onChange={(e) => {
               setInput(e.target.value);
             }}
-            onKeyDown={(e) => {
-              console.log(e.key)
-              // if (e.key === "Enter") {
-              //   sendMessage(input);
-              // }
-            }}
             disabled={loading}
           >
             Rewrite this message by breaking down the ideas into separate
